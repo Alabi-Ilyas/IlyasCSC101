@@ -1,0 +1,36 @@
+\documentclass{article}
+
+\usepackage[table]{xcolor} 
+\usepackage{siunitx}
+\sisetup{
+	round-mode            = places,
+	round-precision       = 3,
+}
+
+\begin{document}
+	
+	\begin{table}[h!]
+		\begin{center}
+			\caption{First year, First semester}
+			\label{tab:table}
+			\begin{tabular}{l|c|r|c|c}
+				\textbf{Course code} & \textbf{Credit Unit} &
+				\textbf{Letter Grade} & \textbf{Grade point} &
+				\textbf{Quality point}\\
+			\cellcolor{blue!25}	-& (CU) & (LG) & (GP)  & (CU * GP)\\
+				\hline
+			\cellcolor{blue!36} CSC 101 & 3 & A & 5 & 15\\
+			\cellcolor{red!25}	MTH 101 & 3 & A & 5 & 15\\
+			\cellcolor{green! 20}	CHM 101 & 3 & A & 5 & 15\\
+			\cellcolor{yellow!26}	CHM 107 & 1 & A & 5 & 5 \\
+			\cellcolor{red!26}	PHY 101 & 3 & A & 5 & 15\\
+			\cellcolor{red!27}	PHY 107 & 1 & A & 5 & 5\\
+			\cellcolor{red!32}	GST 101 & 3 & A & 5 & 15\\
+			\cellcolor{red!32}	GST 103 & 2 & A & 5 & 10 \\
+			\cellcolor{green!35}	GST 108 & 2 & A & 5 & 10\\
+			\cellcolor{green!25}	GPA & & & & 5.00
+			\end{tabular}
+		\end{center}
+	\end{table}
+	
+\end{document}
